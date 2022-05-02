@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "650127179574",
+    "project_id": "sloter",
+    "storage_bucket": "sloter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650127179574:android:6c9d54dfade64de7b7fd97",
+        "android_client_info": {
+          "package_name": "com.example.sloter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650127179574-170p1isvkol92frnk669vv5eui4d3jr0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkWbCe617-h_8pIC0Q5qFfcmw2H9tH_B4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650127179574-170p1isvkol92frnk669vv5eui4d3jr0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
