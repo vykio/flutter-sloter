@@ -38,7 +38,10 @@ class _AppState extends State<App> {
       appBar: AppBar(
         title: const Text('Sloter'),
       ),
-      body: pages[_selectedIndex],
+      body: IndexedStack( // Permet de garder les actions quand on change de page
+        index: _selectedIndex,
+        children: pages,
+      ),
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
