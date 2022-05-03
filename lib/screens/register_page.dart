@@ -1,5 +1,6 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:sloter/screens/app.dart';
 import 'package:sloter/screens/profile_page.dart';
 import 'package:sloter/utils/validator.dart';
 
@@ -116,7 +117,7 @@ class _RegisterPageState extends State<RegisterPage> {
 
                           if (user != null) {
                             Navigator.of(context).pushAndRemoveUntil(
-                              MaterialPageRoute(builder: (context) => ProfilePage(user: user)),
+                              MaterialPageRoute(builder: (context) => App(user: user)),
                               ModalRoute.withName('/')
                             );
                           }
