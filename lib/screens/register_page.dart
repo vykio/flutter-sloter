@@ -1,6 +1,5 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:sloter/screens/login_page.dart';
 import 'package:sloter/screens/profile_page.dart';
 import 'package:sloter/utils/validator.dart';
 
@@ -127,18 +126,6 @@ class _RegisterPageState extends State<RegisterPage> {
                     ),
                   ),
 
-                  const SizedBox(width: 24.0),
-
-                  Expanded(
-                      child: ElevatedButton(
-                        onPressed: () {
-                          Navigator.of(context).pushReplacement(
-                              MaterialPageRoute(builder: (context) => const LoginPage())
-                          );
-                        },
-                        child: const Text('Sign In', style: TextStyle(color: Colors.white)),
-                      )
-                  )
                 ],
               )
 
